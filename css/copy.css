@@ -178,6 +178,15 @@ header img{
   width: 30%;
   padding: 10px 0;
 }
+.master-page .dash-board .filter .form-inline button[type="submit"] {
+  height: 35px;
+  display: block;
+  margin: 10px 0;
+  background-color: #1953F6;
+  color: #fff;
+  border-radius: 30px;
+  padding: 7px 20px;
+}
  /* Start Filter */
 /* .master-page .dash-board .catagory {
   display: flex;
