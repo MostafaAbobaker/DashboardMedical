@@ -353,3 +353,7 @@ header img{
   padding-left: 5px;
   padding-right: 5px;
 }
+
+.box-charts-body tspan:not(#ICUSchartdiv tspan) {
+  fill: #000;
+}
