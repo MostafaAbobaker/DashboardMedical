@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="operation  " class="operation show">
+    <div class="filter-container">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+              <div class="filter">
+                <h3>
+                  <a class="icon-aside" href="#"><i class="fa fa-align-left  fa-fw" ></i></a>
+                  
+                  <span>لوحة التحكم</span>
+                </h3>
+                <form class="form-inline">
+                  <div class="form-group">
+                    <select class="form-control">
+                      <option>أختر المحافظة</option>
+                      <option>القاهرة </option>
+                      <option>الجيزة</option>
+                      <option>الاسكندرية</option>
+                      <option>بورسعيد</option>
+                      <option>شمال سيناء</option>
+                      <option>جنوب سيناء</option>
+                      <option>الوادى الجديد</option>
+                      <option>مرسى مطروح</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control"  placeholder="اكتب اسم المستشفى">
+                  </div>
+                  
+                  <button type="submit" class="btn btn-default">بحث</button>
+                </form>
+              </div>
+          </div>
+          
+          </div>
+      </div>
+    </div>
+    <div class="box-catagory">
+      <div class="container-fluid">  
+      <div class="row catagory">
+        
+          <div class="col-lg-25 col-md-3 col-sm-3 col-12 p-5">
+            <a href="#" id="Emergency">
+              <div class="card info-bg ">
+              <div class="card-body">
+                <h4 class="card-title">الطوارئ</h4>
+              </div>
+              <div class="card-img">
+                <svg id="Capa_1" enable-background="new 0 0 512 512"  viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg"><g><g><g><path d="m256 55.539c5.523 0 10-4.478 10-10v-35.539c0-5.523-4.477-10-10-10s-10 4.477-10 10v35.539c0 5.523 4.477 10 10 10z"/><path d="m345.302 77.533c1.894 1.646 4.23 2.453 6.557 2.453 2.794 0 5.574-1.165 7.551-3.438l24.88-28.618c3.624-4.168 3.182-10.484-.986-14.108s-10.483-3.182-14.108.985l-24.88 28.618c-3.623 4.168-3.182 10.484.986 14.108z"/><path d="m422.621 159.005c1.692 0 3.407-.431 4.979-1.335l32.9-18.935c4.787-2.755 6.434-8.868 3.679-13.655-2.754-4.786-8.867-6.433-13.655-3.679l-32.9 18.935c-4.787 2.755-6.434 8.868-3.679 13.655 1.85 3.215 5.215 5.014 8.676 5.014z"/><path d="m490.639 235.933h-37.989c-5.523 0-10 4.478-10 10s4.477 10 10 10h37.989c5.523 0 10-4.478 10-10 0-5.523-4.477-10-10-10z"/><path d="m152.59 76.548c1.978 2.274 4.757 3.438 7.551 3.438 2.326 0 4.663-.808 6.557-2.453 4.168-3.624 4.609-9.94.986-14.108l-24.881-28.618c-3.624-4.168-9.94-4.607-14.108-.985-4.168 3.624-4.609 9.94-.986 14.108z"/><path d="m51.501 138.735 32.9 18.935c1.572.905 3.287 1.335 4.979 1.335 3.46 0 6.826-1.799 8.676-5.014 2.755-4.787 1.108-10.9-3.679-13.655l-32.9-18.935c-4.788-2.757-10.901-1.109-13.655 3.679-2.755 4.787-1.108 10.9 3.679 13.655z"/><path d="m69.35 245.933c0-5.522-4.477-10-10-10h-37.99c-5.523 0-10 4.478-10 10s4.477 10 10 10h37.99c5.523 0 10-4.478 10-10z"/><path d="m439.367 442.955v-12.588c0-19.342-14.183-35.432-32.695-38.418v-164.304c0-82.959-67.492-150.451-150.451-150.451h-.441c-82.959 0-150.451 67.492-150.451 150.451v164.305c-18.512 2.986-32.695 19.076-32.695 38.418v12.588c-11.992 3.608-20.752 14.752-20.752 27.903v31.141c0 5.522 4.477 10 10 10h148.912c5.523 0 10-4.478 10-10s-4.477-10-10-10h-138.912v-21.142c0-5.035 4.097-9.132 9.132-9.132h349.973c5.036 0 9.132 4.097 9.132 9.132v21.142h-138.913c-5.523 0-10 4.478-10 10s4.477 10 10 10h148.913c5.523 0 10-4.478 10-10v-31.142c0-13.151-8.761-24.295-20.752-27.903zm-314.038-215.31c0-71.931 58.52-130.451 130.451-130.451h.441c71.931 0 130.451 58.521 130.451 130.451v163.808h-101.959v-74.381c15.52-9.802 25.246-27.228 25.246-46.036 0-29.677-24.206-53.821-53.959-53.821s-53.959 24.145-53.959 53.821c0 18.808 9.727 36.234 25.246 46.036v74.381h-101.958zm116.21 74.474c-11.663-5.48-19.498-17.971-19.498-31.084 0-18.649 15.234-33.821 33.959-33.821s33.959 15.172 33.959 33.821c0 13.113-7.836 25.604-19.498 31.084-3.508 1.647-5.748 5.175-5.748 9.051v80.282h-17.426v-80.282c0-3.876-2.239-7.403-5.748-9.051zm-129.991 109.333h288.904c10.43 0 18.915 8.485 18.915 18.915v11.359h-326.733v-11.359c0-10.429 8.484-18.915 18.914-18.915z"/><path d="m265.05 498.18c-1.583-3.865-5.559-6.369-9.726-6.161-4.119.205-7.761 3.003-9.024 6.926-1.312 4.075.204 8.698 3.699 11.181 3.373 2.396 7.921 2.461 11.371.185 3.924-2.59 5.485-7.803 3.68-12.131z"/></g></g></g></svg>
+
+                
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-25 col-md-3 col-sm-3 col-12 p-5">
+            <a href="#">
+              <div class="card primary-bg">
+              <div class="card-body">
+                <h4 class="card-title">رعايات</h4>
+              </div>
+              <div class="card-img">
+                <svg id="Capa_1" enable-background="new 0 0 512 512"  viewBox="0 0 512 512"  xmlns="http://www.w3.org/2000/svg"><g><path d="m7.5 40.292h55.13l18.32 17.521-22.238 22.238c-13.566 13.568-13.566 35.645 0 49.212l10.809 10.809-11.03 11.03c-1.58 1.581-2.373 3.784-2.163 6.009.21 2.226 1.402 4.241 3.25 5.497l18.494 12.572c4.861 3.306 10.446 4.922 16.003 4.922 6.443 0 12.848-2.175 18.036-6.412l4.477 4.477c3.248 3.247 7.564 5.035 12.157 5.035 4.592 0 8.908-1.788 12.156-5.036l10.165-10.166c3.247-3.246 5.035-7.563 5.035-12.155 0-4.593-1.788-8.91-5.035-12.155l-4.375-4.375 3.332-3.332 4.375 4.375c3.247 3.246 7.564 5.034 12.156 5.034s8.909-1.788 12.156-5.034l10.166-10.166c6.702-6.703 6.702-17.61 0-24.313l-4.375-4.375 3.332-3.332 4.375 4.375c3.352 3.351 7.753 5.025 12.155 5.025s8.805-1.675 12.157-5.025l10.166-10.166c6.702-6.702 6.702-17.608-.001-24.313l-4.476-4.476c7.891-9.662 8.628-23.541 1.491-34.039l-12.573-18.495c-1.256-1.849-3.271-3.04-5.497-3.25-2.209-.207-4.427.583-6.009 2.163l-11.03 11.029-10.808-10.808c-6.573-6.572-15.311-10.192-24.606-10.192-9.296 0-18.034 3.62-24.606 10.192l-37.013 37.012-20.736-19.832c-1.396-1.335-3.252-2.08-5.184-2.08h-58.138c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5zm132.959 114.003c.53.53.642 1.135.642 1.549s-.111 1.019-.642 1.549c0 0-.001 0-.001.001l-10.165 10.165c-.854.856-2.246.854-3.099 0l-4.375-4.374 13.265-13.265zm37.81-37.811c.854.854.854 2.244 0 3.099l-10.166 10.166c-.854.855-2.244.855-3.098 0l-4.375-4.375 13.265-13.265zm37.81-34.712-10.165 10.166c-.855.853-2.246.854-3.1.001l-4.375-4.375 13.265-13.265 4.375 4.374c.855.854.855 2.246 0 3.099zm-12.261-54.786 7.478 10.999c3.637 5.35 2.956 12.553-1.618 17.127-12.22 12.22-95.03 95.029-106.046 106.045-4.572 4.575-11.776 5.254-17.127 1.618l-10.998-7.477c28.549-28.549 112.102-112.102 128.311-128.312zm-64.64-6.187c3.739-3.739 8.711-5.799 13.999-5.799s10.26 2.06 13.999 5.8l10.808 10.807-97.856 97.857-10.808-10.809c-7.72-7.719-7.72-20.279 0-27.998z"/><path d="m317.793 64.852h-17.425c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h17.425c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5z"/><path d="m317.793 92.397h-17.425c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h17.425c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5z"/><path d="m317.793 119.943h-17.425c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h17.425c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5z"/><path d="m317.793 147.489h-17.425c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h17.425c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5z"/><path d="m427.02 116.63c-1.932-2.103-4.887-2.926-7.628-2.124-2.739.801-4.787 3.087-5.282 5.898l-3.918 22.263-18.992-41.5c-1.098-2.398-3.375-4.045-5.997-4.334-2.621-.287-5.204.821-6.798 2.923l-15.311 20.188h-18.227c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h21.951c2.347 0 4.558-1.099 5.976-2.968l9.984-13.164 23.803 52.013c1.231 2.692 3.913 4.379 6.816 4.379.316 0 .636-.02.956-.061 3.258-.418 5.864-2.905 6.434-6.14l5.462-31.038 2.852 3.104c1.649 1.795 4.069 2.68 6.487 2.363 2.418-.313 4.533-1.782 5.67-3.939l7.538-14.294.321 3.034c.403 3.814 3.621 6.71 7.458 6.71h15.122c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-8.374l-2.206-20.835c-.348-3.283-2.801-5.953-6.042-6.576-3.245-.621-6.511.947-8.05 3.867l-14.074 26.688z"/><path d="m484.24 274.865h-248.116c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h248.116c7.036 0 12.76 5.724 12.76 12.76v11.923h-482v-11.923c0-7.036 5.724-12.76 12.76-12.76h178.377c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-100.802v-9.9c0-11.014-8.96-19.974-19.974-19.974h-39.445c-11.014 0-19.974 8.96-19.974 19.974v9.959c-14.463.939-25.942 13.005-25.942 27.701v19.423c0 4.143 3.357 7.5 7.5 7.5h25.47v7.912c0 13.93 11.332 25.263 25.262 25.263h43.427c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-43.428c-5.658 0-10.262-4.604-10.262-10.263v-7.912h416.062v7.912c0 5.659-4.604 10.263-10.263 10.263-33.941 0-280.851 0-322.123 0-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h54.909l31.503 19.984-31.944 11.905c-2.935 1.094-4.881 3.896-4.881 7.027v22.254h-63.201c-10.686 0-19.379 8.693-19.379 19.379v21.254c-9.756 3.169-16.828 12.347-16.828 23.146 0 13.415 10.913 24.328 24.328 24.328s24.329-10.913 24.329-24.328c0-10.799-7.073-19.977-16.829-23.146v-21.254c0-2.415 1.964-4.379 4.379-4.379h260.571c2.414 0 4.379 1.964 4.379 4.379v21.254c-9.756 3.169-16.828 12.347-16.828 23.146 0 13.415 10.913 24.328 24.328 24.328s24.329-10.913 24.329-24.328c0-10.799-7.073-19.977-16.829-23.146v-21.254c0-10.686-8.693-19.379-19.379-19.379h-67.617l-59.394-37.677 63.037-23.494h139.139c13.93 0 25.263-11.333 25.263-25.263v-7.912h25.47c4.143 0 7.5-3.357 7.5-7.5v-19.423c0-15.306-12.453-27.759-27.76-27.759zm-443.298-9.9c0-2.742 2.231-4.974 4.974-4.974h39.445c2.742 0 4.974 2.231 4.974 4.974v9.9h-49.393zm65.21 232.035c-5.144 0-9.328-4.185-9.328-9.328 0-5.118 4.143-9.286 9.251-9.327.026 0 .051.001.077.001s.052-.001.077-.001c5.109.042 9.252 4.209 9.252 9.327 0 5.143-4.184 9.328-9.329 9.328zm284.329 0c-5.144 0-9.328-4.185-9.328-9.328 0-5.118 4.143-9.286 9.251-9.327.026 0 .051.001.077.001s.052-.001.077-.001c5.109.042 9.252 4.209 9.252 9.327.001 5.143-4.184 9.328-9.329 9.328zm-107.497-73.106h-86.751v-17.045l37.72-14.058zm-47.287-47.761-21.14-13.411h57.123z"/><path d="m493.654 37.743h-36.967c-4.143 0-7.5 3.357-7.5 7.5s3.357 7.5 7.5 7.5h36.967c1.845 0 3.346 1.501 3.346 3.346v137.905c0 1.846-1.501 3.347-3.346 3.347h-212.434c-1.846 0-3.347-1.501-3.347-3.347v-137.905c0-1.845 1.501-3.346 3.347-3.346h145.48c4.143 0 7.5-3.357 7.5-7.5s-3.357-7.5-7.5-7.5h-145.48c-10.116 0-18.347 8.229-18.347 18.346v137.905c0 10.116 8.23 18.347 18.347 18.347h212.435c10.116 0 18.346-8.23 18.346-18.347v-137.905c-.001-10.116-8.23-18.346-18.347-18.346z"/></g></svg>                
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-25 col-md-3 col-sm-3 col-12 p-5">
+            <a href="#">
+              <div class="card Violet-bg">
+              <div class="card-body">
+                <h4 class="card-title">الحضانات</h4>
+              </div>
+              <div class="card-img">
+                <svg  viewBox="0 0 64 64"  xmlns="http://www.w3.org/2000/svg"><g id="outline"><path d="m59 28v-20.192l-2.323-5.808h-35.354l-2.323 5.808v10.192h-2v-16h-6v2h-8v12h8v11a3 3 0 0 0 6 0v-3h2v4a3 3 0 0 0 0 6v16h16v2h-16v6h2.184a2.966 2.966 0 0 0 -.184 1 3 3 0 0 0 6 0 2.966 2.966 0 0 0 -.184-1h24.368a2.966 2.966 0 0 0 -.184 1 3 3 0 0 0 6 0 2.966 2.966 0 0 0 -.184-1h2.184v-6h-16v-2h16v-16a3 3 0 0 0 0-6zm-38-19.808 1.677-4.192h32.646l1.677 4.192v11.808h-5.96a5.008 5.008 0 0 0 .935-4.227 5.232 5.232 0 0 0 -3.737-3.744 6.17 6.17 0 0 0 -4.915 1.379l-.323-.644v-1.764a3 3 0 0 0 -6 0v2a1 1 0 0 0 .106.447l.276.553h-2.6l-.828-3.3c-.502-1.569-1.787-1.7-2.954-1.7h-2a3.03 3.03 0 0 0 -2.131.959 2.906 2.906 0 0 0 -.869 2.068 2.849 2.849 0 0 0 3 2.973h.22l.81 3.243a4.645 4.645 0 0 0 .9 1.757h-9.93zm10.971 9.565-1-4a1 1 0 0 0 -.971-.757h-1c-.681 0-.98-.307-1-1.027a.946.946 0 0 1 .3-.619 1.083 1.083 0 0 1 .7-.354h2c.951 0 .977.083 1.03.243l1 4a1 1 0 0 0 .97.757h5a1 1 0 0 0 .9-1.447l-.9-1.789v-1.764a1 1 0 0 1 2 0v2a1 1 0 0 0 .106.447l1 2a1 1 0 0 0 1.6.26c.758-.758 2.578-2.1 4.055-1.736a3.2 3.2 0 0 1 2.263 2.256 2.977 2.977 0 0 1 -.584 2.574 3.153 3.153 0 0 1 -2.44 1.199h-12a3.182 3.182 0 0 1 -3.029-2.243zm-26.971-3.757v-8h6v8zm8-10h2v14h-2zm2 23a1 1 0 0 1 -2 0v-3h2zm-2-5v-2h6v2zm8 0h36v6h-2v-4h-8v4h-2v-4h-10v4h-14zm32 6h-4v-2h4zm-10 0h-6v-2h6zm-22 6h14v6h-14zm0 14v-6h14v6zm4 11a1 1 0 1 1 -1-1 1 1 0 0 1 1 1zm30 0a1 1 0 1 1 -1-1 1 1 0 0 1 1 1zm2-5v2h-36v-2zm-16-2h-4v-18h4zm16-4h-14v-14h14zm2-16h-40a1 1 0 0 1 0-2h40a1 1 0 0 1 0 2z"/><path d="m53 9.236v4.764h2v-5.236l-1.382-2.764h-3.618v2h2.382z"/><path d="m46 6h2v2h-2z"/><path d="m23 6h2v2h-2z"/><path d="m24 36h8v2h-8z"/><path d="m24 44h8v2h-8z"/><path d="m45 38h2v6h-2z"/></g></svg>
+  
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-25 col-md-3 col-sm-3 col-12 p-5">
+            <a href="#" id="Fire">
+              <div class="card warning-bg">
+              <div class="card-body">
+                <h4 class="card-title">رعاية الحروق</h4>
+              </div>
+              <div class="card-img">
+                <svg id="Capa_1" enable-background="new 0 0 511.876 511.876"  viewBox="0 0 511.876 511.876"  xmlns="http://www.w3.org/2000/svg"><g><path d="m461.853 411.723h-127.371c4.116-16.518-.271-34.736-13.159-47.624l-104.007-104.006c-22.771-22.771-53.046-35.311-85.249-35.311h-117.067c-8.284 0-15 6.716-15 15v107.69c0 8.284 6.716 15 15 15h50.815l123.935 122.16c17.753 17.499 41.258 27.136 66.186 27.136h205.918c27.582 0 50.023-22.44 50.023-50.022-.001-27.582-22.441-50.023-50.024-50.023zm0 70.045h-205.917c-16.996 0-33.021-6.57-45.125-18.501l-128.315-126.477c-2.807-2.767-6.59-4.317-10.53-4.317h-41.966v-77.69h102.067c24.189 0 46.932 9.42 64.036 26.524l104.006 104.006c7.84 7.841 7.84 20.598 0 28.438-.477.476-2.21 1.975-2.54 2.3-.002-.002-.003-.003-.005-.005-7.844 5.537-18.879 4.719-25.895-2.295l-77.346-77.346c-5.857-5.858-15.355-5.858-21.213 0-5.858 5.857-5.858 15.355 0 21.213l77.346 77.346c9.768 9.769 22.6 14.653 35.433 14.653 9.409 0 18.812-2.639 27.012-7.894h148.952c11.04 0 20.023 8.982 20.023 20.022 0 11.041-8.982 20.023-20.023 20.023z"/><path d="m402.26 340.861c39.736 0 72.334-17.305 91.786-48.727 22.706-36.677 23.795-87.643 2.774-129.843-2.869-5.762-9.096-9.043-15.471-8.173-2.234.308-4.312 1.103-6.121 2.277 4.508-34.088.944-72.437-22.188-107.585-21.417-32.544-49.685-46.601-50.879-47.184-5.688-2.773-12.506-1.686-17.041 2.728-4.536 4.413-5.814 11.199-3.194 16.961 14.024 30.837-13.503 65.295-42.646 101.775-23.618 29.563-48.04 60.134-51.949 92.569-3.781 31.375 6.051 62.902 26.975 86.499 21.807 24.597 53.866 38.703 87.954 38.703zm-85.144-121.609c2.888-23.966 24.603-51.147 45.604-77.434 15.839-19.827 32.217-40.329 42.432-61.401 5.277-10.887 8.594-21.286 9.954-31.294 4.349 4.571 8.775 9.952 12.876 16.183 23.018 34.977 25.251 78.979 6.636 130.781-1.75 4.87-.866 10.3 2.34 14.363 3.206 4.064 8.284 6.184 13.425 5.618 7.524-.832 19.15-4.513 29.18-12.726 5.392 25.808 1.684 52.476-11.023 73.001-9.748 15.747-29.16 34.518-66.278 34.518-25.513 0-49.389-10.426-65.508-28.604-15.46-17.433-22.434-39.809-19.638-63.005z"/></g></svg>
+
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-25 col-md-3 col-sm-3 col-12 p-5">
+            <a href="#">
+              <div class="card success-bg">
+              <div class="card-body">
+                <h4 class="card-title">عمليات</h4>
+              </div>
+              <div class="card-img">
+                <svg xmlns="http://www.w3.org/2000/svg" id="outline" viewBox="0 0 512 512" ><path d="M491.27881,280.708A31.98346,31.98346,0,0,0,464,232H432a31.81344,31.81344,0,0,0-17.804,5.42456A32.05056,32.05056,0,0,0,384,216H331.31348l1.00781-1.00781,16.11719-5.37207a52.00907,52.00907,0,0,0,23.041-83.18653L343.65234,93.96875A39.95275,39.95275,0,0,0,313.28223,80H288V48a32,32,0,0,0-64,0V80H198.71777a39.95275,39.95275,0,0,0-30.37011,13.96875l-27.82715,32.46387a52.01,52.01,0,0,0,23.041,83.1875l16.11719,5.37207L180.68652,216H136a8.00777,8.00777,0,0,0-4.11621,1.13965l-33.813,20.28784L78.40039,211.2002A8.0009,8.0009,0,0,0,72,208H56a8.00039,8.00039,0,0,0-8,8v64H24a8.00039,8.00039,0,0,0-8,8v32a8.00039,8.00039,0,0,0,8,8H37.10425l45.77466,38.14551A7.99881,7.99881,0,0,0,88,368H192v72H168a7.99873,7.99873,0,0,0-7.42773,5.0293l-16,40A7.999,7.999,0,0,0,152,496H408a7.999,7.999,0,0,0,7.42773-10.9707l-16-40A7.99873,7.99873,0,0,0,392,440H320V368H424a7.99881,7.99881,0,0,0,5.12109-1.85449L474.89575,328H488a8.00039,8.00039,0,0,0,8-8V288A7.9966,7.9966,0,0,0,491.27881,280.708ZM480,264a15.99594,15.99594,0,0,1-8,13.835V250.165A15.99625,15.99625,0,0,1,480,264Zm-24-16v32h-8V248Zm-27.019.29492L432,251.31348v25.373l-3.019,3.01856a15.99092,15.99092,0,0,1,0-31.41016ZM400,248v16a31.79207,31.79207,0,0,0,4.30518,16H376V232h8A16.01833,16.01833,0,0,1,400,248Zm-97.53223-54.21777,14.218,14.218L308.68652,216H288v-7.7666a8.01987,8.01987,0,0,1,3.34961-6.50977ZM272,64H240V56h32ZM243.31348,80h25.373l3.01856,3.019a15.99092,15.99092,0,0,1-31.41016,0ZM256,32a15.99656,15.99656,0,0,1,13.835,8H242.165A15.99656,15.99656,0,0,1,256,32ZM144,160.28027A36.02676,36.02676,0,0,1,152.669,136.8457l27.82714-32.46484A23.9723,23.9723,0,0,1,198.71777,96h29.58741a31.96885,31.96885,0,0,0,55.38964,0h29.58741a23.9723,23.9723,0,0,1,18.22168,8.38086l27.82714,32.46582a36.00735,36.00735,0,0,1-15.95312,57.59375l-13.217,4.406L315.668,184.35352l24.98144-17.84375a7.99883,7.99883,0,0,0,1.751-11.30957l-24-32-12.80078,9.5996L324.6875,158.249,282.0498,188.7041A24.04723,24.04723,0,0,0,272,208.2334V216H240v-7.7666a24.04552,24.04552,0,0,0-10.05078-19.5293L187.3125,158.249l19.08789-25.44922-12.80078-9.5996-24,32a7.99883,7.99883,0,0,0,1.751,11.30957l24.9812,17.844-14.49268,14.49268-13.217-4.406A35.961,35.961,0,0,1,144,160.28027Zm51.31421,47.72L209.532,193.78247l11.11743,7.94116A8.01816,8.01816,0,0,1,224,208.2334V216H203.31348ZM104,252.5293,138.21582,232H360v48H104ZM64,224h4l20,26.667V280H64ZM62.096,328H136v24H90.89648ZM360,328v24H152V328Zm36.18359,152H163.81641l9.59961-24H386.584ZM304,440H208V368h96Zm117.10352-88H376V328h73.904ZM480,312H32V296H480Z"/></svg>
+
+              </div>
+            </div>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="chart-continer">
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-12 p-5 chartory">
+          <div class="box-charts">
+            <h4 class="box-charts-tilte">حاله الأسرة               </h4>
+            <div class="box-charts-body">
+              <div id="RequestsChartDivTwo"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 col-12 p-5 chartory">
+          <div class="box-charts">
+            <h4 class="box-charts-tilte">الأدوية والمستلزمات الحرجة               </h4>
+            <div class="box-charts-body">
+              <div id="Typeschartdiv"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-12 p-5 chartory">
+          <div class="box-charts">
+            <h4 class="box-charts-tilte">عدد الاطباء والتمريض              </h4>
+            <div class="box-charts-body">
+              <div id="AmbulancesChartDiv"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12 p-5 chartory min">
+          <div class="box-charts">
+            <h4 class="box-charts-tilte">غرف العزل               </h4>
+            <div class="box-charts-body">
+              <div id="RequestsChartDiv"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12 p-5 chartory">
+          <div class="box-charts">
+            <h4 class="box-charts-tilte">الأجهزة الطبية الحرجة             </h4>
+            <div class="box-charts-body">
+              <div id="ICUSchartdiv"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    $('.catagory a').not('.catagory #Emergency , .catagory #Fire').click(function () {
+      $('.chartory').slideDown(500);
+    });
+    $('.catagory #Emergency , .catagory #Fire').click(function () {
+      $('.chartory:nth(3)').slideUp(500);
+    });
+  </script>
+  <script>
+    var array=[];
+    var ICUArray=[];
+    
+    function LoadPage(){
+      var GouvId=$("#GouvId").val();
+      var FromDate=$("#FromDate").val();
+      var ToDate=$("#ToDate").val();
+      window.location='/ar-eg/AmbulanceCommandCenter_/Ambulance_Requests_DashBord?GouvId='+GouvId+'&FromDate='+FromDate+'&ToDate='+ToDate;
+    }
+    </script>
+      
+      
+      <script>
+    var o={"country":'جهاز وريدى',"visits":1789}
+    array.push(o);
+      </script>
+      <script>
+    var o={"country":'سرنجة 5سم',"visits":1237}
+    array.push(o);
+      </script>
+      <script>
+    var o={"country":'برفلجان فيال',"visits":573}
+    array.push(o);
+      </script>
+      
+      <script>
+    var o={"country":'قسطرة بولية',"visits":498}
+    array.push(o);
+      </script>
+      <script>
+    var o={"country":'بانادول 500 أقراص',"visits":398}
+    array.push(o);
+      </script>
+      <script>
+    var o={"country":'ترامادول',"visits":387}
+    array.push(o);
+      </script>
+      <script>
+    var o={"country":'شرايط سكر ',"visits":370}
+    array.push(o);
+      </script>
+      <script>
+    var o={"country":'ألبيومين',"visits":274}
+    array.push(o);
+      </script>
+      <script>
+    var o={"country":'بلازما',"visits":189}
+    array.push(o);
+      </script>
+      <script>
+    var o={"country":'Naloxone',"visits":157}
+    array.push(o);
+      </script>
+      <script>
+    var o={"country":'Adernaline',"visits":123}
+    array.push(o);
+      </script>
+      <script>
+    var o={"country":'Alteplase',"visits":100}
+    array.push(o);
+      </script>
+      
+    
+      <script>
+    var o={"network":'أجهزة التنفس الصناعى',"MAU":7}
+    ICUArray.push(o);
+      </script>
+      <script>
+    var o={"network":'أجهزة التنفس الصناعى (CPAP) ',"MAU":3}
+    ICUArray.push(o);
+      </script>
+      <script>
+    var o={"network":'أجهزة المونيتور',"MAU":11}
+    ICUArray.push(o);
+      </script>
+      <script>
+    var o={"network":'أجهزة الحقن الأتوماتيكى',"MAU":4}
+    ICUArray.push(o);
+      </script>
+      <script>
+    
+      </script>
+    <!---------------------------------Requests-------------------------->
+    <script>
+    am4core.useTheme(am4themes_animated);
+    
+    var chart1 = am4core.create("RequestsChartDiv", am4charts.PieChart);
+    
+    
+    chart1.data = [{
+      "country": "في الصيانة",
+      "value": 0,
+    
+    }, {
+      "country": "غير متاح",
+      "value":  2,
+    }, {
+      "country": "متاح",
+      "value":  3,
+    }  ];
+    
+    chart1.responsive.enabled = true;
+    chart1.innerRadius = am4core.percent(50);
+    
+    var series = chart1.series.push(new am4charts.PieSeries());
+    series.dataFields.value = "value";
+    series.dataFields.category = "country";
+    
+    series.slices.template.cornerRadius = 0;
+    series.slices.template.innerCornerRadius = 0;
+    series.alignLabels = false;
+    series.labels.template.padding(0, 0, 0, 0);
+    
+    series.labels.template.bent = true;
+    series.labels.template.radius = 4;
+    
+    series.ticks.template.disabled = true;
+    series.alignLabels = false;
+    series.labels.template.text = "{value.percent.formatNumber('#.0')}%";
+    series.labels.template.radius = 4;
+    series.labels.template.fill = am4core.color("white");
+    
+    
+    
+    series.slices.template.states.getKey("hover").properties.scale = 1.1;
+    series.labels.template.states.create("hover").properties.fill = am4core.color("#000");
+    
+    series.slices.template.events.on("over", function (event) {
+      event.target.dataItem.label.isHover = true;
+    })
+    
+    series.slices.template.events.on("out", function (event) {
+      event.target.dataItem.label.isHover = false;
+    })
+    var colorSet = new am4core.ColorSet();
+    colorSet.list = [
+    am4core.color("#fcb14f"),
+    am4core.color("#11c193"),
+    am4core.color("#ee3f5a"),
+    
+    ].map(function(color) {
+      return new am4core.color(color);
+    });
+    series.colors = colorSet;
+    series.ticks.template.disabled = true;
+    series.tooltip.getFillFromObject = false;
+    series.tooltip.label.propertyFields.fill = "color";
+    series.tooltip.background.propertyFields.stroke = "color";
+    // this creates initial animation
+    series.hiddenState.properties.opacity = 1;
+    series.hiddenState.properties.endAngle = -90;
+    series.hiddenState.properties.startAngle = -90;
+    ///////////////
+    /////////////////////
+    
+    chart1.legend = new am4charts.Legend();
+    chart1.legend.position = "right";
+    </script>
+    <script>
+    am4core.useTheme(am4themes_animated);
+    
+    var chart1 = am4core.create("RequestsChartDivTwo", am4charts.PieChart);
+    
+    
+    chart1.data = [{
+      "country": "في الصيانة",
+      "value": 19,
+    
+    }, {
+      "country": "غير متاح",
+      "value":  18,
+    }, {
+      "country": "متاح",
+      "value":  157,
+    } ];
+    
+    chart1.responsive.enabled = true;
+    chart1.innerRadius = am4core.percent(50);
+    
+    var series = chart1.series.push(new am4charts.PieSeries());
+    series.dataFields.value = "value";
+    series.dataFields.category = "country";
+    
+    series.slices.template.cornerRadius = 0;
+    series.slices.template.innerCornerRadius = 0;
+    series.alignLabels = false;
+    series.labels.template.padding(0, 0, 0, 0);
+    
+    series.labels.template.bent = true;
+    series.labels.template.radius = 4;
+    
+    series.ticks.template.disabled = true;
+    series.alignLabels = false;
+    series.labels.template.text = "{value.percent.formatNumber('#.0')}%";
+    series.labels.template.radius = 4;
+    series.labels.template.fill = am4core.color("white");
+    
+    
+    
+    series.slices.template.states.getKey("hover").properties.scale = 1.1;
+    series.labels.template.states.create("hover").properties.fill = am4core.color("#000");
+    
+    series.slices.template.events.on("over", function (event) {
+      event.target.dataItem.label.isHover = true;
+    })
+    
+    series.slices.template.events.on("out", function (event) {
+      event.target.dataItem.label.isHover = false;
+    })
+    var colorSet = new am4core.ColorSet();
+    colorSet.list = [
+    am4core.color("#fcb14f"),
+    am4core.color("#11c193"),
+    am4core.color("#ee3f5a"),
+    
+    ].map(function(color) {
+      return new am4core.color(color);
+    });
+    series.colors = colorSet;
+    series.ticks.template.disabled = true;
+    series.tooltip.getFillFromObject = false;
+    series.tooltip.label.propertyFields.fill = "color";
+    series.tooltip.background.propertyFields.stroke = "color";
+    // this creates initial animation
+    series.hiddenState.properties.opacity = 1;
+    series.hiddenState.properties.endAngle = -90;
+    series.hiddenState.properties.startAngle = -90;
+    ///////////////
+    /////////////////////
+    
+    chart1.legend = new am4charts.Legend();
+    chart1.legend.position = "right";
+    </script>
+    
+    <!---------------------------------Types---------------------->
+    <script>
+    am4core.ready(function() {
+    
+      // Themes begin
+      am4core.useTheme(am4themes_animated);
+      // Themes end
+    
+      var chart = am4core.create("Typeschartdiv", am4charts.XYChart);
+      chart.hiddenState.properties.opacity = 0; // this creates initial fade-in
+    
+      chart.data = array;
+    
+      chart.colors.list = [
+      am4core.color("#59bcfb"),
+      am4core.color("#1cd1a1"),
+      am4core.color("#ee3f5a"),
+      am4core.color("#fcb14f"),
+      am4core.color("#3939cb"),
+      am4core.color("#05bed9"),
+      am4core.color("#fcb14f"),
+    
+      ];
+      var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
+      categoryAxis.renderer.grid.template.location = 0;
+      categoryAxis.dataFields.category = "country";
+      categoryAxis.renderer.minGridDistance = 40;
+      categoryAxis.fontSize = 11;
+      categoryAxis.renderer.labels.template.dy = 5;
+    
+    
+    
+    
+    
+    
+      var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+      valueAxis.min = 0;
+      valueAxis.renderer.minGridDistance = 30;
+      valueAxis.renderer.baseGrid.disabled = true;
+    
+    
+      var series = chart.series.push(new am4charts.ColumnSeries());
+      series.dataFields.categoryX = "country";
+      series.dataFields.valueY = "visits";
+    
+    
+      series.tooltip.getFillFromObject = false;
+      series.tooltip.label.propertyFields.fill = "#fcb14f" ;
+      series.tooltip.background.propertyFields.stroke =   "#fcb14f" ;
+    
+    
+    
+      series.columns.template.tooltipText = "{valueY.value}";
+    
+      series.columns.template.tooltipY = 0;
+      series.columns.template.strokeOpacity = 0;
+      series.columns.template.width = am4core.percent(25);
+      series.columns.template.column.cornerRadiusBottomRight = 20;
+      series.columns.template.column.cornerRadiusTopRight = 20;
+      series.columns.template.column.cornerRadiusBottomLeft = 20;
+      series.columns.template.column.cornerRadiusTopLeft = 20;
+      // as by default columns of the same series are of the same color, we add adapter which takes colors from chart.colors color set
+      series.columns.template.adapter.add("fill", function(fill, target) {
+          return chart.colors.getIndex(target.dataItem.index);
+      });
+    
+    }); // end am4core.ready()
+    </script>
+    
+    
+    
+    <!--------------------------------TimeAverage---------------------->
+    
+    
+    <!--------------------------------Ambulances------------------------->
+    
+    <script>
+    am4core.useTheme(am4themes_animated);
+    
+    var chart4 = am4core.create("AmbulancesChartDiv", am4charts.PieChart);
+    
+    
+    chart4.data = [{
+      "country": "الأطباء",
+      "value": 5,
+    
+    }, {
+      "country": "تمريض",
+      "value": 7,
+    } ];
+    
+    chart4.responsive.enabled = true;
+    chart4.innerRadius = am4core.percent(50);
+    
+    var series = chart4.series.push(new am4charts.PieSeries());
+    series.dataFields.value = "value";
+    series.dataFields.category = "country";
+    
+    series.slices.template.cornerRadius = 0;
+    series.slices.template.innerCornerRadius = 0;
+    series.alignLabels = false;
+    series.labels.template.padding(0, 0, 0, 0);
+    
+    series.labels.template.bent = true;
+    series.labels.template.radius = 4;
+    
+    series.slices.template.states.getKey("hover").properties.scale = 1.1;
+    series.labels.template.states.create("hover").properties.fill = am4core.color("#000");
+    series.tooltip.getFillFromObject = false;
+    series.tooltip.label.propertyFields.fill = "color";
+    series.tooltip.background.propertyFields.stroke = "color";
+    
+    series.ticks.template.disabled = true;
+    series.alignLabels = false;
+    series.labels.template.text = "{value.percent.formatNumber('#.0')}%";
+    series.labels.template.radius = 4;
+    series.labels.template.fill = am4core.color("white");
+    
+    
+    
+    series.slices.template.events.on("over", function (event) {
+      event.target.dataItem.label.isHover = true;
+    })
+    
+    series.slices.template.events.on("out", function (event) {
+      event.target.dataItem.label.isHover = false;
+    })
+    var colorSet = new am4core.ColorSet();
+    
+    
+    colorSet.list = [
+    am4core.color("#59bcfb"),
+     
+    //am4core.color("#ee3f5a"),
+    //am4core.color("#fcb14f"),
+    am4core.color("#3939cb"),
+    //am4core.color("#05bed9"),
+    // am4core.color("#fcb14f"),
+    
+    ].map(function(color) {
+      return new am4core.color(color);
+    });
+    series.colors = colorSet;
+    series.ticks.template.disabled = true;
+    
+    // this creates initial animation
+    series.hiddenState.properties.opacity = 1;
+    series.hiddenState.properties.endAngle = -90;
+    series.hiddenState.properties.startAngle = -90;
+    ///////////////
+    /////////////////////
+    
+    chart4.legend = new am4charts.Legend();
+    chart4.legend.position = "right";
+    </script>
+    
+    <!-----------------------------------ICUS------------------------->
+
+    <script>
+    am4core.ready(function() {
+    
+      // Themes begin
+      am4core.useTheme(am4themes_animated);
+      // Themes end
+    
+      var chart = am4core.create("ICUSchartdiv", am4charts.XYChart);
+    
+      chart.colors.list = [
+      am4core.color("#59bcfb"),
+      am4core.color("#1cd1a1"),
+      am4core.color("#ee3f5a"),
+      am4core.color("#fcb14f"),
+      am4core.color("#3939cb"),
+      am4core.color("#05bed9"),
+      am4core.color("#fcb14f"),
+    
+      ];
+      chart.padding(0, 0, 0, 0);
+       
+      var categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
+      categoryAxis.renderer.grid.template.location = 0;
+      categoryAxis.dataFields.category = "network";
+      categoryAxis.renderer.minGridDistance = 2;
+      categoryAxis.renderer.inversed = true;
+      categoryAxis.renderer.grid.template.disabled = true;
+    
+      var valueAxis = chart.xAxes.push(new am4charts.ValueAxis());
+      valueAxis.min = 0;
+    
+      var series = chart.series.push(new am4charts.ColumnSeries());
+      series.dataFields.categoryY = "network";
+      series.dataFields.valueX = "MAU";
+      series.tooltipText = "{valueX.value}"
+      series.columns.template.strokeOpacity = 0;
+      series.columns.template.column.cornerRadiusBottomRight = 20;
+      series.columns.template.column.cornerRadiusTopRight = 20;
+    
+      var labelBullet = series.bullets.push(new am4charts.LabelBullet())
+      labelBullet.label.horizontalCenter = "left";
+      labelBullet.label.dx = 10;
+      labelBullet.label.text = "{values.valueX.workingValue}";
+      labelBullet.label.fill = am4core.color("#fff");
+    
+      labelBullet.locationX = 1;
+    
+    // as by default columns of the same series are of the same color, we add adapter which takes colors from chart.colors color set
+    series.columns.template.adapter.add("fill", function(fill, target){
+    return chart.colors.getIndex(target.dataItem.index);
+    });
+    
+    categoryAxis.sortBySeries = series;
+    chart.data = ICUArray;
+    
+    
+    
+    }); // end am4core.ready()
+    </script>
+    
+</body>
+</html>
