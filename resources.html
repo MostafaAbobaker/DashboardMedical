@@ -100,7 +100,7 @@
             </a>
           </div>
           <div class="col-lg-25 col-md-3 col-sm-3 col-12 p-5">
-            <a href="#">
+            <a href="#" id="surgeries">
               <div class="card success-bg">
               <div class="card-body">
                 <h4 class="card-title">عمليات</h4>
@@ -166,11 +166,18 @@
   </div>
   <script>
     $('.catagory a').not('.catagory #Emergency , .catagory #Fire').click(function () {
-      $('.chartory').slideDown(500);
+      if($('.chartory').eq(4).hasClass('col-lg-8')) {
+        $('.chartory').slideDown(500).eq(4).removeClass('col-lg-8').addClass('col-lg-4');
+      }
+      
     });
     $('.catagory #Emergency , .catagory #Fire').click(function () {
-      $('.chartory:nth(3)').slideUp(500);
+      $('.chartory:nth(3)').slideUp(500).next().addClass('col-lg-8').removeClass('col-lg-4');
     });
+    $('.catagory #surgeries').click(function () {
+      $('.chartory:first-child h4').text("عدد الغرف");
+    });
+
   </script>
   <script>
     var array=[];
@@ -263,7 +270,7 @@
     
     
     chart1.data = [{
-      "country": "في الصيانة",
+      "country": "تحت الصيانة",
       "value": 0,
     
     }, {
@@ -338,7 +345,7 @@
     
     
     chart1.data = [{
-      "country": "في الصيانة",
+      "country": "تحت الصيانة",
       "value": 19,
     
     }, {
