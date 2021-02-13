@@ -356,6 +356,11 @@
   <script src="Charts/themes/animated.js"></script>
   <script src="js/main.js"></script>
   <script>
+    $('.catagory a').click(function () {
+      $(this).addClass('active').parent().siblings().find("a").removeClass('active');
+    });
+  </script>
+  <script>
     var array=[];
     var ICUArray=[];
     

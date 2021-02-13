@@ -240,7 +240,24 @@ header img{
   font-size: 11px;
   font-weight: bold;
 }
-
+.master-page .dash-board .catagory a.active .card {
+  box-shadow: 4px 4px 0 1px #2e7d32;
+  /* transform: scale(1.05) translate(-2px, -2px); */
+  overflow: hidden;
+  /* background: #4caf50 !important; */
+  background: linear-gradient(to bottom, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%)!important;
+  background: linear-gradient(to right, #56ab2f, #a8e063)!important;
+  border-width: 3px;
+}
+/* .master-page .dash-board .catagory a.active .card::after {
+  content: '';
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #4caf50;
+} */
 
 /* .master-page .dash-board .col-lg-4 {
     width: 31.4%;

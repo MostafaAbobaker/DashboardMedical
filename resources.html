@@ -48,7 +48,7 @@
       <div class="row catagory">
         
           <div class="col-lg-25 col-md-3 col-sm-3 col-12 p-5">
-            <a href="#" id="Emergency">
+            <a href="#" id="Emergency" class="active">
               <div class="card info-bg ">
               <div class="card-body">
                 <h4 class="card-title">الطوارئ</h4>
@@ -165,19 +165,21 @@
     </div>
   </div>
   <script>
-    $('.catagory a').not('.catagory #Emergency , .catagory #Fire').click(function () {
+    $('.catagory a').not('.catagory #Emergency , .catagory #Fire ,.catagory  #surgeries').click(function () {
       if($('.chartory').eq(4).hasClass('col-lg-8')) {
         $('.chartory').slideDown(500).eq(4).removeClass('col-lg-8').addClass('col-lg-4');
+        $('.chartory:first-child h4').text("حاله الأسرة");
       }
-      
     });
-    $('.catagory #Emergency , .catagory #Fire').click(function () {
+    $('.catagory #Emergency , .catagory #Fire,.catagory  #surgeries').click(function () {
       $('.chartory:nth(3)').slideUp(500).next().addClass('col-lg-8').removeClass('col-lg-4');
     });
     $('.catagory #surgeries').click(function () {
       $('.chartory:first-child h4').text("عدد الغرف");
     });
-
+    $('.catagory a').click(function () {
+    $(this).addClass('active').parent().siblings().find("a").removeClass('active');
+  });
   </script>
   <script>
     var array=[];

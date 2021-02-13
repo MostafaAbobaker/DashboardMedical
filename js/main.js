@@ -13,4 +13,7 @@ $(document).ready(function(){
     console.log(DataValue);
     
   });
+  $('.catagory a').click(function () {
+    $(this).addClass('active').parent().siblings().find("a").removeClass('active');
+  });
 });
